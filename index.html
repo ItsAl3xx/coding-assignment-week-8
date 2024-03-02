@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu App</title>
+    <style>
+       body {
+            background-color: #363537;
+            color: #FAFAFA;
+            transition: background-color 0.3s, color 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <h2>Menu App</h2>
+    <button id="createView">View Items</button>
+    <button id="createAdd">Add Item</button>
+    <div id="inputField" style="display:none;">
+        <input type="text" id="itemName" placeholder="Enter item name">
+        <button onclick="addItem()">Add</button>
+    </div>
+    <ul id="itemList"></ul>
+    <script src="menuApp.js"></script>
+</body>
+</html>
